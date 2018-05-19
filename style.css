@@ -157,3 +157,10 @@ body{
 		.socialcontainer a{
 			text-decoration:none;
 		}
+
+.halfPageCol {
+	width: 40%;
+	display:inline-block;
+	text-align: left;
+	vertical-align: top;
+}
