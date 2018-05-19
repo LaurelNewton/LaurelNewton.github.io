@@ -58,7 +58,7 @@ body{
 			margin: 0px;
 			padding:0px;
 		}
-		ul {
+		ul.nav-bar {
     		list-style-type: none;
     		margin: 0 auto;
     		padding: 0;
@@ -70,12 +70,12 @@ body{
 			padding-right: 10%;
 		}
 
-		li {
+		.nav-bar li {
 			float: left;
 			width:25%;
 		}
 
-		li a {
+		.nav-bar li a {
 			display: block;
 			color: #464646;
 			text-align: center;
@@ -83,7 +83,7 @@ body{
 			text-decoration: none;
 		}
 
-		li a:hover {
+		.nav-bar li a:hover {
 			color:darkgrey;
 		}
 
@@ -99,8 +99,8 @@ body{
 
 	  .nav-bar li ul li {
 		display: block;
-		margin-left: -50px;
-    	width: 175px;
+		margin-left: 35px;
+    	width: 210px;
 		float: none;
 	  }
 
